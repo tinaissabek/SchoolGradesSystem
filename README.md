@@ -7,24 +7,23 @@
 Струтура проекта
 ```
 SchoolGradesSystem/
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── com.schoolgrades/
-│       │       ├── Student.java
-│       │       ├── Subject.java
-│       │       ├── Grade.java
-│       │       ├── SchoolData.java
-│       │       ├── DBUtil.java
-│       │       └── StudentDAO.java
-│       └── webapp/
-│           ├── index.jsp
-│           ├── students.jsp
-│           ├── subjects.jsp
-│           ├── admin.jsp
-│           └── WEB-INF/
-│               └── web.xml
-└── schoolgrades.db
+└── src/
+   └── main/
+       ├── java/
+       │   └── com.schoolgrades/
+       │       ├── Student.java
+       │       ├── Subject.java
+       │       ├── Grade.java
+       │       ├── SchoolData.java
+       │       ├── DBUtil.java
+       │       └── StudentDAO.java
+       └── webapp/
+           ├── index.jsp
+           ├── students.jsp
+           ├── subjects.jsp
+           ├── admin.jsp
+           └── WEB-INF/
+               └── web.xml
 ```
 ## Технологический стек
 
@@ -138,15 +137,6 @@ class_name | TEXT | Класс
 ✔ лучший ученик  
 ✔ лучший предмет  
 ✔ средние баллы
-
----
-
-## Дополнительные возможности для расширения
-- Перевод всех данных в настоящую SQL‑базу
-- Создание авторизации (учитель / ученик / админ)
-- Визуальная аналитика (графики, диаграммы)
-- REST API (Spring Boot)
-- Отдельный фронтенд (React/Vue)
 
 ---
 
