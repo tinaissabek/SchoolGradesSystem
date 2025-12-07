@@ -5,26 +5,26 @@
 
 ---
 
-## 📁 Структура проекта
+📁 Структура проекта
 
 SchoolGradesSystem/
-├── src/
-   └── main/
-       ├── java/
-       │   └── com.schoolgrades/
-       │       ├── Student.java
-       │       ├── Subject.java
-       │       ├── Grade.java
-       │       ├── SchoolData.java
-       │       ├── DBUtil.java
-       │       └── StudentDAO.java
-       └── webapp/
-           ├── index.jsp
-           ├── students.jsp
-           ├── subjects.jsp
-           ├── admin.jsp
-           └── WEB-INF/
-               └── web.xml
+└── src/
+    └── main/
+        ├── java/
+        │   └── com.schoolgrades/
+        │       ├── Student.java
+        │       ├── Subject.java
+        │       ├── Grade.java
+        │       ├── SchoolData.java
+        │       ├── DBUtil.java
+        │       └── StudentDAO.java
+        └── webapp/
+            ├── index.jsp
+            ├── students.jsp
+            ├── subjects.jsp
+            ├── admin.jsp
+            └── WEB-INF/
+                └── web.xml
 
 
 ## Технологический стек
